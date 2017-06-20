@@ -1,43 +1,42 @@
-
-
-img
-{
-    margin-top: 15px;
-    margin-bottom: 20px;
+img {
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
-nav
-{
-    background-image: url('images/background.svg');
-    height: 80px;
+nav {
+  background-image: url('images/background.svg');
+  height: 80px;
 }
 
-.fila-h1-principal
-{
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    line-height: 1.1;
-    margin-top: 20px;
+.fila-h1-principal {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  line-height: 1.1;
+  margin-top: 20px;
 }
-
 
 @import url('fonts/AG-Stencil.ttf');
 .fila-h1-error, .fila-h1-404 {
-    font-family: 'AG Stencil';
-}
-.fila-h1-error {
-    text-shadow: 0.5px 0.5px 1px gray;
-    color: #336799;
-    font-size: 150px;
-}
-.fila-h1-404 {
-    text-shadow: 0.5px 0.5px 1px gray;
-    color: #CA3338;
-    font-size: 200px;
+  font-family: 'AG Stencil';
 }
 
-hr
-{
-    width: 10%;
-    border-width: 2px;
-    border-color: #16a085;
+.fila-h1-error {
+  text-shadow: 0.5px 0.5px 1px gray;
+  color: #336799;
+  font-size: 150px;
+}
+
+.fila-h1-404 {
+  text-shadow: 0.5px 0.5px 1px gray;
+  color: #CA3338;
+  font-size: 200px;
+}
+
+.div-404 {
+  margin-top: -30px;
+}
+
+hr {
+  width: 10%;
+  border-width: 2px;
+  border-color: #16a085;
 }
