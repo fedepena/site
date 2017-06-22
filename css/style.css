@@ -1,18 +1,16 @@
-.fila-h1-error, .fila-h1-404 {
-  font-family: 'AG Stencil';
-  text-shadow: 0.5px 0.5px 1px gray;
+.div-error,
+.div-404 {
+    font-family: 'AG Stencil';
+    text-shadow: 0.5px 0.5px 1px gray;
 }
 
-.fila-h1-error {
-  color: #336799;
-  font-size: 150px;
+.div-error {
+    color: #336799;
+    font-size: 150px;
 }
 
 .div-404 {
-  margin-top: -30px;
-}
-
-.fila-h1-404 {
-  color: #CA3338;
-  font-size: 200px;
+    margin-top: -30px;
+    color: #CA3338;
+    font-size: 200px;
 }
