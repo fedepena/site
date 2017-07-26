@@ -1,0 +1,27 @@
+
+.copyright-bar
+{
+    height: 70px;
+    padding-top: 20px;
+    background-color: #233447;
+    position: relative;
+    bottom: -165px;
+}
+
+.copyright-bar p
+{
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bg-black {
+    background-color: #111111 !important;
+}
+.pomegranate {
+    color: #C0392B !important;
+}
