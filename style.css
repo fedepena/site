@@ -1,9 +1,37 @@
+.footer {
+  background-color: #111111;
+  height: 315px;
+  position: relative;
+  bottom: -165px;
+}
+.idioma {
+  width: 250px;
+}
+.pais{
+  width: 250px;
+}
+.proceso{
+  width: 300px;
+}
+.ayuda{
+  width: 370px;
+}
+.footer p {
+  font-family:  "Helvetica", Arial, sans-serif;
+  font-size: 20px;
+  color: #B8B8B8;
+  text-align: center;
+}
+.footer h5 {
+  color: #B8B8B8;
+  font-size: 14px;
+}
 
 .copyright-bar
 {
     height: 70px;
     padding-top: 20px;
-    background-color: #233447;
+    background-color: #111111;
     position: relative;
     bottom: -165px;
 }
@@ -18,9 +46,6 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-.bg-black {
-    background-color: #111111 !important;
 }
 .pomegranate {
     color: #C0392B !important;
