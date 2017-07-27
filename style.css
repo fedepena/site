@@ -11,10 +11,6 @@
 .ayuda{
   width: 370px;
 }
-@@font-face {
-  font-family: Helvetica-Regular;
-  src: url(Helvetica-Regular.ttf);
-}
 .footer {
   background-color: #111111;
   height: 315px;
