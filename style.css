@@ -1,41 +1,19 @@
 
-.idioma {
-  width: 250px;
-}
-.pais{
-  width: 250px;
-}
-.proceso{
-  width: 300px;
-}
-.ayuda{
-  width: 370px;
-}
-.footer {
+footer {
   background-color: #000000;
-  height: 315px;
+  min-height:350px;
   position: relative;
   bottom: -165px;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: #B8B8B8;
+}
+.paddingtop-bottom {  margin-top:30.5px;}
+.heading7 { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:22px;}
+.footer-ul { list-style-type:none;  padding-left:10px; margin-left:2px;}
+.footer-ul li { line-height:34px; font-size:14px;}
+.footer-ul li a { color:#B8B8B8; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#FFFFFF; }
 
-
-}
-.footer h4 {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 32px;
-  padding-bottom: 22px;
-}
-.footer h5 {
-  font-size: 14px;
-  /*background-color: white;*/
-  padding-bottom: 2.5px;
-}
-.footer-h5 {
-  padding-right: 95px;
-  margin-top: 42px;
-}
 .copyright-bar
 {
     height: 62px;
