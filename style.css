@@ -12,26 +12,35 @@
   width: 370px;
 }
 .footer {
-  background-color: #111111;
+  background-color: #000000;
   height: 315px;
   position: relative;
   bottom: -165px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Lato Regular", Arial, sans-serif;
   color: #B8B8B8;
+
+
 }
-.footer p {
+.footer h4 {
   font-size: 20px;
   text-align: center;
+  margin-top: 32px;
+  padding-bottom: 22px;
 }
 .footer h5 {
   font-size: 14px;
+  /*background-color: white;*/
+  padding-bottom: 2.5px;
 }
-
+.footer-h5 {
+  padding-right: 95px;
+  margin-top: 42px;
+}
 .copyright-bar
 {
-    height: 70px;
+    height: 62px;
     padding-top: 20px;
-    background-color: #111111;
+    background-color: #000000;
     position: relative;
     bottom: -165px;
 }
