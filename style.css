@@ -58,3 +58,12 @@ footer {
     margin-right: -142px;
   }
 }
+@media screen and (max-width: 992px) {
+  .col-language {
+    margin-left: 18px;
+  }
+  .col-process {
+    margin-right: -70px;
+  }
+
+}
