@@ -1,23 +1,20 @@
 
 footer {
   background-color: #000000;
-  min-height:350px;
+  min-height:315px;
   position: relative;
   bottom: -165px;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: #B8B8B8;
 }
 
-.paddingtop-bottom {  margin-top:30.5px; margin-left: 98px; margin-right: -55.5px;}
+.paddingtop-bottom {  margin-top:20.5px; margin-left: 98px; margin-right: -55.5px;}
 .col-country {
   margin-right: -45.5px;
 }
 .col-process {
   margin-right: -10px;
 }
-/*.col-help {
-  margin-left: 126px;
-}*/
 
 .heading7 { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
 .footer-ul { list-style-type:none;  padding-left:10px; margin-left:2px;}
@@ -47,4 +44,17 @@ footer {
 }
 .pomegranate {
     color: #C0392B !important;
+}
+
+@media screen and (max-width: 1200px){
+  footer {
+      /*background-color: blue;*/
+  }
+  .paddingtop-bottom {  margin-top:18.5px; margin-left: 90px; }
+  .col-country {
+    margin-right: -54px;
+  }
+  .col-process {
+    margin-right: -142px;
+  }
 }
