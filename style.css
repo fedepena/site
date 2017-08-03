@@ -8,7 +8,7 @@ footer {
   color: #B8B8B8;
 }
 
-.paddingtop-bottom {  margin-top:20.5px; margin-left: 98px; margin-right: -55.5px;}
+.footer-container {  margin-top:20.5px; margin-left: 98px; margin-right: -55.5px;}
 .col-country {
   margin-right: -45.5px;
 }
@@ -16,7 +16,7 @@ footer {
   margin-right: -10px;
 }
 
-.heading7 { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
+.heading { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
 .footer-ul { list-style-type:none;  padding-left:10px; margin-left:2px;}
 .footer-ul li { line-height:26px; font-size:14px;}
 .footer-ul li a { color:#B8B8B8; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
@@ -47,10 +47,8 @@ footer {
 }
 
 @media screen and (max-width: 1200px){
-  footer {
-      /*background-color: blue;*/
-  }
-  .paddingtop-bottom {  margin-top:18.5px; margin-left: 90px; }
+
+  .footer-container {  margin-top:18.5px; margin-left: 90px; }
   .col-country {
     margin-right: -54px;
   }
@@ -66,4 +64,80 @@ footer {
     margin-right: -70px;
   }
 
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+      background-color: blue;
+
+  }
+     footer > .container {
+
+     display: inline-block;
+   }
+  .col-language {
+    padding-left: 129px;
+
+  }
+  .col-country {
+    padding-left: 135px;
+
+  }
+  .col-process {
+    padding-left: 58px;
+  }
+  .col-help {
+    padding-left: 78px;
+
+  }
+}
+@media screen and (max-width: 619px) {
+  footer {
+    background-color: red;
+
+  }
+  .footer-container {
+    text-align: center;
+  }
+  .col-language {
+   margin-left: 100px;
+   margin-right: 100px;
+  }
+  .col-country {
+    margin-left: 95px;
+    margin-right: 100px;
+  }
+  .col-process {
+    margin-left: 142px;
+    margin-right: 50px;
+  }
+  .col-help {
+    margin-left: 118px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  footer {
+    background-color: purple;
+  }
+
+  .heading { font-size:40px;}
+  .footer-ul li { font-size: 24px }
+  .col-language {
+   margin-left: 0px;
+   margin-right: 20px;
+  }
+  .col-country {
+    margin-left: -3px;
+    margin-right: 110px;
+
+  }
+  .col-process {
+    margin-left: 73px;
+    margin-right: 115px;
+  }
+  .col-help {
+    margin-left: 55px;
+  }
+  .footer-ul li { line-height:36px;}
 }
