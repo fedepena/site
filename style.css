@@ -62,34 +62,7 @@ footer {
 @media screen and (max-width: 619px) {
 
   .heading { font-size:24px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
-  .footer-container { width: 50%; }
+  .footer-container { width: 100%; }
   .footer-ul li { line-height:26px; font-size:18px;}
     
-}
-
-
-
-@media screen and (max-width: 414px) {
-  footer  .row {
-    margin-left: 10px;
-  }
-  .heading { font-size:40px;}
-  .footer-ul li { font-size: 24px }
-  .col-language {
-   margin-left: -7px;
-   margin-right: 20px;
-  }
-  .col-country {
-    margin-left: -56px;
-    margin-right: 110px;
-
-  }
-  .col-process {
-    margin-left:65px;
-    margin-right: 10px;
-  }
-  .col-help {
-    margin-left: 10px;
-  }
-  .footer-ul li { line-height:36px;}
 }
