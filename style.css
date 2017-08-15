@@ -45,11 +45,12 @@ footer {
   .footer-container {  margin-top:18.5px; }
 }
 
-
 @media screen and (max-width: 767px) {
 
     .footer-container {
         width: 50%;
+        margin-right: -70px;
+        margin-left: 70px;
     }
 }
 
