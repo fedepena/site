@@ -9,12 +9,6 @@ footer {
 }
 
 .footer-container { width: 25%; margin-top:20.5px; margin-left: 40px; margin-right: -55.5px;}
-.col-country {
-/*  margin-right: -45.5px;*/
-}
-.col-process {
-/*  margin-right: -10px;*/
-}
 
 .heading { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
 .footer-ul { list-style-type:none;  padding-left:10px; margin-left:2px;}
@@ -61,8 +55,7 @@ footer {
 
 @media screen and (max-width: 619px) {
 
-  .heading { font-size:24px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
-  .footer-container { width: 100%; }
+  .heading { font-size:24px; font-weight:700; margin-bottom:10.5px;}
+  .footer-container { width: 100%; text-align: center; margin-left: 10px;}
   .footer-ul li { line-height:26px; font-size:18px;}
-    
 }
