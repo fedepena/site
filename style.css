@@ -54,25 +54,30 @@ footer {
 
 @media screen and (max-width: 767px) {
 
+    .footer-container {
+        width: 50%;
+    }
+/*
      footer > .container {
        position: relative;
        left: -20px;
    }
+*/
   .col-language {
-    padding-left: 129px;
+/*    padding-left: 129px;*/
 
   }
   .col-country {
-    padding-left: 179px;
+/*    padding-left: 179px;*/
 
   }
   .col-process {
-    padding-left: 58px;
-    margin-right: -50px;
+/*    padding-left: 58px;*/
+/*    margin-right: -50px;*/
   }
   .col-help {
-    padding-left: 113px;
-    margin-left: 15px;
+/*    padding-left: 113px;*/
+/*    margin-left: 15px;*/
   }
 }
 @media screen and (max-width: 619px) {
