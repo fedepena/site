@@ -67,16 +67,7 @@ footer {
     
 }
 
-@media screen and (max-width: 585px) {
-  .copyright-bar
-  {
-      line-height: 30px;
-      padding-bottom: 100px;
-  }
-  .small {
-    font-size: 100%;
-  }
-}
+
 
 @media screen and (max-width: 414px) {
   footer  .row {
