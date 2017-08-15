@@ -8,12 +8,12 @@ footer {
   color: #B8B8B8;
 }
 
-.footer-container { width: 25%; margin-top:20.5px; margin-left: 98px; margin-right: -55.5px;}
+.footer-container { width: 25%; margin-top:20.5px; margin-left: 40px; margin-right: -55.5px;}
 .col-country {
-  margin-right: -45.5px;
+/*  margin-right: -45.5px;*/
 }
 .col-process {
-  margin-right: -10px;
+/*  margin-right: -10px;*/
 }
 
 .heading { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
@@ -48,23 +48,9 @@ footer {
 
 @media screen and (max-width: 1200px){
 
-  .footer-container {  margin-top:18.5px; margin-left: 90px; }
-  .col-country {
-    margin-right: -54px;
-  }
-  .col-process {
-    margin-right: -142px;
-  }
+  .footer-container {  margin-top:18.5px; }
 }
-@media screen and (max-width: 992px) {
-  .col-language {
-    margin-left: 18px;
-  }
-  .col-process {
-    margin-right: -70px;
-  }
 
-}
 
 @media screen and (max-width: 767px) {
 
