@@ -8,7 +8,7 @@ footer {
   color: #B8B8B8;
 }
 
-.footer-container {  margin-top:20.5px; margin-left: 98px; margin-right: -55.5px;}
+.footer-container { width: 25%; margin-top:20.5px; margin-left: 98px; margin-right: -55.5px;}
 .col-country {
   margin-right: -45.5px;
 }
