@@ -3,16 +3,15 @@ footer {
   background-color: #000000;
   min-height:315px;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
-  color: #B8B8B8;
 }
 
 .footer-container { width: 25%; margin-top:20.5px; margin-left: 40px; margin-right: -55.5px;}
 
 .heading { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
 
-.footer-ul { list-style-type:none;  padding-left:10px; margin-left:2px;}
+.footer-ul { list-style-type:none;  padding-left:1px; margin-left:2px;}
 
-.footer-ul li { line-height:26px; font-size:14px;}
+.footer-ul li { line-height:26px; font-size:14px; background-color: #212121; border: 0.5px solid #000000; padding-left: 12px; }
 
 .footer-ul li a { color:#B8B8B8; transition: color 0.2s linear 0s, background 0.2s linear 0s; text-decoration:none; }
 
