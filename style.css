@@ -2,8 +2,6 @@
 footer {
   background-color: #000000;
   min-height:315px;
-  position: relative;
-  bottom: -165px;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: #B8B8B8;
 }
@@ -11,39 +9,20 @@ footer {
 .footer-container { width: 25%; margin-top:20.5px; margin-left: 40px; margin-right: -55.5px;}
 
 .heading { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
+
 .footer-ul { list-style-type:none;  padding-left:10px; margin-left:2px;}
+
 .footer-ul li { line-height:26px; font-size:14px;}
+
 .footer-ul li a { color:#B8B8B8; transition: color 0.2s linear 0s, background 0.2s linear 0s; text-decoration:none; }
+
 .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#FFFFFF; text-decoration:none;}
-
-.copyright-bar
-{
-    height: 62px;
-    padding-top: 20px;
-    background-color: #000000;
-    position: relative;
-    bottom: -165px;
-}
-
-.copyright-bar p
-{
-    color: #ffffff;
-    font-weight: 700;
-    margin: 0;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    overflow-x: hidden;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.pomegranate {
-    color: #C0392B !important;
-}
 
 @media screen and (max-width: 1200px){
 
   .footer-container {  margin-top:18.5px; }
-  footer  .row {margin-left: 30px; margin-right: 70px;}
+  
+   footer .row {margin-left: 30px; margin-right: 70px;}
 }
 
 @media screen and (max-width: 767px) {
@@ -58,6 +37,9 @@ footer {
 @media screen and (max-width: 619px) {
 
   .heading { font-size:24px; font-weight:700; margin-bottom:10.5px;}
+    
   .footer-container { width: 100%; text-align: center; margin-left: 10px;}
+    
   .footer-ul li { line-height:26px; font-size:18px;}
+    
 }
