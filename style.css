@@ -5,9 +5,10 @@ footer {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
-.footer-container { width: 25%; margin-top:20.5px; margin-left: 40px; margin-right: -55.5px;}
+footer .row { margin-top: 18.5px; }
 
-.heading { font-size:20px; font-weight:700; color:#B8B8B8; margin-bottom:10.5px;}
+/* Clase para el título cabeza de las columnas del footer */
+.footer-col-heading { font-size:20px; font-weight:700; color:#B8B8B8;}
 
 .footer-ul { list-style-type:none;  padding-left:1px; margin-left:2px;}
 
@@ -17,27 +18,12 @@ footer {
 
 .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#FFFFFF; text-decoration:none;}
 
-@media screen and (max-width: 1200px){
-
-  .footer-container {  margin-top:18.5px; }
-  
-   footer .row {margin-left: 30px; margin-right: 70px;}
-}
 
 @media screen and (max-width: 767px) {
-
-    .footer-container {
-        width: 50%;
-        margin-right: -70px;
-        margin-left: 70px;
-    }
-}
-
-@media screen and (max-width: 619px) {
-
-  .heading { font-size:22px; font-weight:700; margin-bottom:10.5px;}
     
-  .footer-container { width: 100%; text-align: center; margin-left: 10px;}
+  footer .row { text-align: center; }
+    
+  .footer-col-heading { font-size:22px;}
     
   .footer-ul li { line-height:26px; font-size:16px;}
     
